@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div id="container">
+    <div id="encabezado">
+      <h1>Tu Nombre</h1>
+      <h2>Tu Profesión</h2>
+    </div>
+    <div id="contenido">
+      <div class="bloque">
+        <div class="titulo-bloque">Perfil</div>
+        <p>Texto de ejemplo del perfil.</p>
+        <h5>Subtítulo</h5>
+      </div>
+    </div>
+    <div id="columna">
+      <img src="foto.jpg" alt="Foto" />
+      <div class="circulo" id="c1"></div>
+      <div class="circulo" id="c2"></div>
+      <div class="circulo" id="c3"></div>
+
+      <div class="columna-contenido">
+        <div class="col-titulo">Contacto</div>
+        <div class="col-linea">
+          <svg width="16" height="16" fill="currentColor"><circle cx="8" cy="8" r="8"/></svg>
+          <h6>email@ejemplo.com</h6>
+        </div>
+      </div>
+
+      <div class="columna-contenido">
+        <div class="col-titulo">Idiomas</div>
+        <div class="col-linea">
+          <h6>Inglés</h6>
+          <div class="barra">
+            <div class="nivel lleno"></div>
+            <div class="nivel lleno"></div>
+            <div class="nivel lleno"></div>
+            <div class="nivel vacio"></div>
+            <div class="nivel vacio"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columna-contenido">
+        <div class="col-titulo">Aficiones</div>
+        <div class="linea-icons">
+          <div class="icon"><svg width="24" height="24"><circle cx="12" cy="12" r="10"/></svg></div>
+          <div class="icon"><svg width="24" height="24"><rect x="4" y="4" width="16" height="16"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
