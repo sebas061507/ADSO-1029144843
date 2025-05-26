@@ -33,7 +33,7 @@ def jugar():
         intentos += 1
         pista = evaluar_intento(codigo, intento)
 
-        print("Intento:", intento)
+        print("Intento:", intentos)
         print("Pista:  ", pista)
 
         if pista == ["Verde"] * 4:

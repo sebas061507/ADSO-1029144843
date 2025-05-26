@@ -35,7 +35,7 @@ def jugar():
         intentos += 1
         verde, amarillo, rojo = evaluar_intento(codigo, intento)
 
-        print(f"Intento {intentos}: {intento}")
+        print(f"Intento {intentos}: ")
         print(f"Pista: {verde} Verde(s), {amarillo} Amarillo(s), {rojo} Rojo(s)")
 
         if verde == 4:
